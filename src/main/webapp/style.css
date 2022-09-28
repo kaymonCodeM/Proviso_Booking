@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media(min-width: 768px) {
+	.points-email {
+		width: 50%
+	}
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    opacity: 0.8;
+    object-fit: cover;
+}
+
+.card-img-top:hover {
+	
+	transform: scale(1.1);
+	opacity: 1.0;
+	z-index: 100;
+	cursor: pointer;
+	transition-delay: .25s;
+}
+
+.contact-form-bg {
+	background-image: url("/Proviso/images/contact-form.png");
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
+}
+
+
+input, textarea {
+  width: 100%;
+}
+
